@@ -38,11 +38,11 @@ function reviewAlertPostSlack() {
 
 function sendSlack(slackText){
   Utilities.sleep(1000);
-  let webHookUrl = "https://hooks.slack.com/services/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";　
+  let webHookUrl = "ここにWebhookURLを追加する";　
   
   const jsonData =
       {
-        "channel": "#hoge_ch",   // 通知したいチャンネル 
+        "channel": "#チャンネル名を追加する",   // 通知したいチャンネル 
         "icon_emoji": ":perap",
         "text" : slackText,
         "link_names" : 1,
